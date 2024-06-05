@@ -1,0 +1,175 @@
+
+.a3:hover {
+    color: #f0ad4e;
+}
+
+
+.v {
+    width: 98%;
+    z-index: -3;
+    position: absolute;
+    border-radius: 20px;
+
+}
+
+.a1 {
+
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.a1:hover {
+    color: #f0ad4e;
+    text-decoration: none;
+}
+
+select option:hover {
+    background: rgb(154, 151, 151);
+    color: red;
+}
+
+select option {
+    background-color: rgb(181, 181, 181);
+    color: black;
+    font-size: 20px;
+}
+
+
+.footer {
+    position: relative;
+    top: 300px;
+}
+
+body {
+    background: #e5e3e3;
+}
+
+.fa1 {
+    color: white;
+    line-height: 10px;
+    font-size: 15px;
+    display: flexbox;
+}
+
+.b1:hover {
+    box-shadow: 0px 10px 5px gray;
+}
+
+.b2:hover {
+    box-shadow: 0px 10px 5px gray;
+}
+
+.b:hover {
+    box-shadow: 2px 3px 2px 2px rgb(179, 176, 176);
+    transition: 1s;
+    font-style: italic;
+}
+
+.contact {
+    color: white;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 14px;
+
+}
+
+.b {
+    width: 400px;
+}
+
+
+/* media query includeing */
+
+@media screen and (max-width: 877px) {
+    body {
+        background-color: rgb(53, 67, 53);
+    }
+
+    .b {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 885px) {
+
+    .a1 {
+        font-size: 17px;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .b {
+        width: 200px;
+    }
+
+    .a1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 778px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .b {
+        width: 200px;
+    }
+
+    /* .a1 {
+        font-size: 10px;
+    } */
+}
+
+@media screen and (max-width: 774px) {
+
+
+    .a1 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 466px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .b {
+        width: 140px;
+    }
+
+    .a1 {
+        font-size: 20px;
+        /* margin-top: 8px; */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .a1 {
+        font-size: 20px;
+        /* margin-top: 8px; */
+    }
+}
+
+
+@media screen and (max-width: 355px) {
+
+    .b {
+        width: 100px;
+    }
+
+    .a1 {
+        font-size: 20px;
+        /* margin-top: 8px; */
+    }
+}
+
+/* end media query */
